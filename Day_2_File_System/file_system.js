@@ -28,6 +28,7 @@ fs.mkdir("Node",(err)=>{
     }else{
         console.log("Folder Created");
     }
+
 })
 fs.writeFile("./Node/test.txt","Hellow Developers",(err)=>{
     if(err){
@@ -36,5 +37,13 @@ fs.writeFile("./Node/test.txt","Hellow Developers",(err)=>{
         console.log("Write Fucessfully");
     }
 })
+//vengatesan khjh fjipfjpdjkjklj rafjjhudfeej absukkefeeeenkjokkkkkk
 // fs.readdir();
+fs.readFile("./Node",(err,data)=>{
+    if(err){
+        console.log(err.message);
+    }else{
+        console.log("File Readed",data);
+    }
+})
 // fs.rmdir()
